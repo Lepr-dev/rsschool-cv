@@ -4,7 +4,7 @@
 
 ---
 
-##Contacs
+## _Contacs_
 
 - Email: marozov.vv.job@gmail.com
 - Discord: Vladik
@@ -12,14 +12,14 @@
 
 ---
 
-##Education
+## _Education_
 
 - **2008-2012:** Minsk state polytechnic college. _Specialty:_ Installation and operation of electrical.
 - **2012-2016:** Belarusian state university of informatics and radioelectronics. _Specialty:_ Elektronik security systems.
 
 ---
 
-##Skills
+## _Skills_
 
 ```
 public class Multiply {
@@ -33,18 +33,18 @@ return a * b;
 
 ---
 
-##Projects
+## _Projects_
 
 Here is my first project: [https://Lepr-dev.github.io/rsschool-cv/cv](https://Lepr-dev.github.io/rsschool-cv/cv)
 
 ---
 
-##Level of english
+## _Level of english_
 
 Beginner
 
 ---
 
-##About me
+## _About me_
 
 I don't have any skills in this area yet, so in small steps I will get them and become a developer.
