@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+	font-family: "Roboto mono";
+	src: url("../rsschool-cv/assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* обнуление */
+* {
+   box-sizing: border-box;
+   margin: 0;
+	padding: 0;
+	border: 0;
+ }
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+ main,
+ footer,
+ article,
+ header,
+ section {
+   display: block;
+ }
+
+ li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+ /* делаем прокрутку страницы плавной */
+
+ html{
+   scroll-behavior: smooth;
+ }
+
+ /* настраиваем body */
+
+ body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-betwee;
+   
+   font-family: Poppins, sans-serif;
+   font-size: 18px;
+   line-height: 1.5;
+   font-weight: normal;
+   font-style: normal;
+ }
+
+/* задаем размер страницы и пеобразовываем станицу на половинки*/
+
+.container{
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0 20px;
+   
+}
+
+/* Задаем расположение навигации и редактируем ссылки*/
+.header{
+   background-color: #000;
+}
+.nav-list{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   
+}
+
+.nav-link{
+   padding: 0 20px;
+   line-height: 50px;
+   font-size: 20px;
+   color: #fff;
+}
+
+.main-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.section{
+   width: 48%;
+   margin-bottom: 15px;
+   border-bottom: 2px solid rgb(125, 121, 121);
+   padding: 0 0 10px 5px;
+   
+}
+
+.section.section-config {
+   border-bottom: none;
+}
+
+/* Стилизуем теги и классы */
+h1{
+   font-size: 28px;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   margin: 0 0 10px 0;
+}
+h2,h3,h4{
+   font-family: "Roboto mono";
+   font-size: 22px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   margin: 0 0 10px 0;
+}
+
+
+
+
+/* Редактируем секции */
+
+.section-container-profile{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   padding: 50px 20px;
+   border-bottom: 10px solid rgb(125, 121, 121);
+   margin: 0px 0px 30px 0px;
+
+}
+
+.section-profile-photo{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+
+.section-profile-title{
+   text-align: center;
+}
+
+li.section-item{
+   position: relative;
+   padding-left: 30px;
+}
+
+.section-item-contact1::before{
+   content: '';
+   position: absolute;
+   background-image: url(assets/images/em.svg);
+   width: 22px;
+   height: 22px;
+   top: 2px;
+   left: 0;
+   background-size: contain;
+   
+}
+
+.section-item-contact2::before{
+   content: '';
+   position: absolute;
+   background-image: url(assets/images/githab.svg);
+   width: 24px;
+   height: 24px;
+   top: 4px;
+   left: 3px;
+   background-repeat: no-repeat;
+   
+}
+
+.section-item-contact3::before{
+   content: '';
+   position: absolute;
+   background-image: url(assets/images/disco.svg);
+   width: 22px;
+   height: 22px;
+   top: 2px;
+   left: 0;
+   background-size: contain;
+     
+}
+.section-item-contact4::before{
+   content: '';
+   position: absolute;
+   background-image: url(assets/images/adr.svg);
+   width: 22px;
+   height: 22px;
+   top: 2px;
+   left: 0;
+   background-size: contain;
+   
+}
+
+.section-item-education::before{
+   content: '';
+   position: absolute;
+   top: 3px;
+   left: 0px;
+   width: 24px;
+   height: 20px;
+   background-image: url(./assets/images/univ.svg);
+   background-size: contain;
+   background-repeat:no-repeat;
+   
+}
+
+
+
+
+
+
+/* Подвал */
+footer{
+
+   height: 50px;
+   padding: 0 20px;
+   background-color: #000;
+   
+   
+}
+.footer-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #fff;
+
+   
+}
+.footer-link{
+   color: #fff;
+}
+
+.footer-link-svg{
+   display: inline-block;
+   width: 120px;
+   height: 45px;
+   background-image: url(assets/images/rsicon.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+
+
