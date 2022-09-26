@@ -39,6 +39,7 @@ h6 {
 }
 a {
 	text-decoration: none;
+   color: #000;
 }
 
  /* делаем прокрутку страницы плавной */
@@ -88,23 +89,7 @@ a {
    color: #fff;
 }
 
-.main-container{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
 
-.section{
-   width: 48%;
-   margin-bottom: 15px;
-   border-bottom: 2px solid rgb(125, 121, 121);
-   padding: 0 0 10px 5px;
-   
-}
-
-.section.section-config {
-   border-bottom: none;
-}
 
 /* Стилизуем теги и классы */
 h1{
@@ -126,6 +111,36 @@ h2,h3,h4{
 
 
 /* Редактируем секции */
+
+.main-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.section{
+   width: 48%;
+   margin-bottom: 15px;
+   border-bottom: 2px solid rgb(125, 121, 121);
+   padding: 0 0 10px 5px;
+   
+}
+
+.section-config {
+   border-bottom: none;
+}
+
+@media (max-width: 768px) {
+   .section{
+      width: 100%;
+   }
+   .section-config{
+      border-bottom: 2px solid rgb(125, 121, 121);
+   }
+
+   
+}
+
 
 .section-container-profile{
    display: flex;
@@ -213,8 +228,16 @@ li.section-item{
    
 }
 
+/* добавление интерактивность ссылкам */
 
-
+.section-item a {
+   font-size: 18px;
+   transition: font-size 1s, color 0.5s;
+ }
+ .section-item a:hover {
+   color: gray;
+   font-size: 20px;
+ }
 
 
 
